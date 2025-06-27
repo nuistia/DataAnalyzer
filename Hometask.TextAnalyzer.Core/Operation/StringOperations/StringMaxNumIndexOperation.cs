@@ -12,7 +12,7 @@ public class StringMaxNumIndexOperation : IOperation<string, IntNumberResult, in
         var charNumbers = text.Where(char.IsNumber).ToList();
         var numbers = charNumbers.ConvertAll(c => int.Parse(c.ToString()));
 
-        var maxNumIndex = text.Trim().IndexOf((char)numbers.Max());
+        var maxNumIndex = text.Trim().IndexOf(numbers.Max().ToString());
 
         return new IntNumberResult(maxNumIndex);
     }
