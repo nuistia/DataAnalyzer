@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36221.1 d17.14
+VisualStudioVersion = 17.14.36221.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hometask.TextAnalyzer.Core", "Hometask.TextAnalyzer.Core\Hometask.TextAnalyzer.Core.csproj", "{773D6EF8-BDAF-4936-8C4A-EC6D2687C0B9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hometask.DataAnalyzer.Core", "Hometask.TextAnalyzer.Core\Hometask.DataAnalyzer.Core.csproj", "{773D6EF8-BDAF-4936-8C4A-EC6D2687C0B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hometask.TextAnalyzer.Core.Tests", "Hometask.TextAnalyzer.Core.Tests\Hometask.TextAnalyzer.Core.Tests.csproj", "{6D96D05E-E29D-48AE-AF32-9123A24B4926}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hometask.DataAnalyzer.Core.Tests", "Hometask.TextAnalyzer.Core.Tests\Hometask.DataAnalyzer.Core.Tests.csproj", "{6D96D05E-E29D-48AE-AF32-9123A24B4926}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hometask.TextAnalyzer.App", "Hometask.TextAnalyzer.App\Hometask.TextAnalyzer.App.csproj", "{5A6C2D90-EC67-401F-BF59-D5CEF16F1E4F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hometask.DataAnalyzer.App", "Hometask.TextAnalyzer.App\Hometask.DataAnalyzer.App.csproj", "{5A6C2D90-EC67-401F-BF59-D5CEF16F1E4F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
