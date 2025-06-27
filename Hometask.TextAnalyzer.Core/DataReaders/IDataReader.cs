@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Hometask.DataAnalyzer.Core.Models.ResultModels;
 
-namespace Hometask.TextAnalyzer.Core.TextReaders;
-internal interface IDataReader
+namespace Hometask.TextAnalyzer.Core.DataReaders;
+
+public interface IDataReader<T, TResult, TResultType> where TResult : IResult<TResultType>
 {
+    TResult GetResult(T data);
 }
