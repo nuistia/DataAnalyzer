@@ -10,9 +10,12 @@ public class ArrayFastestCarOperation : IOperation<Car[], FastestCarResult>
     {
         ArgumentNullException.ThrowIfNull(cars, nameof(cars));
 
-        FastestCarResult result;
+        var carList = cars.ToList();
+        var highestSpeed = carList.MaxBy(c => c.Speed).Speed;
 
-        var highestSpeed = cars.MaxBy(c => c.Speed).Speed;
+        int firstCarIndex = carList.FindIndex(c => c.Speed == highestSpeed);
+        int lastCarIndex = carList.FindLastIndex(c => c.Speed == highestSpeed);
 
+        return new FastestCarResult(firstCarIndex, lastCarIndex);
     }
 }
