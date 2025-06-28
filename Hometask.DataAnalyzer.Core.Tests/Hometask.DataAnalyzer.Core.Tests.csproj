@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Hometask.TextAnalyzer.Core\Hometask.DataAnalyzer.Core.csproj" />
+    <ProjectReference Include="..\Hometask.DataAnalyzer.Core\Hometask.DataAnalyzer.Core.csproj" />
   </ItemGroup>
 
   <ItemGroup>
