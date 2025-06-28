@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36221.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hometask.DataAnalyzer.Core", "Hometask.TextAnalyzer.Core\Hometask.DataAnalyzer.Core.csproj", "{773D6EF8-BDAF-4936-8C4A-EC6D2687C0B9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hometask.DataAnalyzer.Core", "Hometask.DataAnalyzer.Core\Hometask.DataAnalyzer.Core.csproj", "{2D9DB895-253B-F06E-98AF-28C385D69D24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hometask.DataAnalyzer.Core.Tests", "Hometask.TextAnalyzer.Core.Tests\Hometask.DataAnalyzer.Core.Tests.csproj", "{6D96D05E-E29D-48AE-AF32-9123A24B4926}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hometask.DataAnalyzer.Core.Tests", "Hometask.DataAnalyzer.Core.Tests\Hometask.DataAnalyzer.Core.Tests.csproj", "{A2C9AF7D-F421-C222-6C63-A5AD5B86BD47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hometask.DataAnalyzer.App", "Hometask.TextAnalyzer.App\Hometask.DataAnalyzer.App.csproj", "{5A6C2D90-EC67-401F-BF59-D5CEF16F1E4F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hometask.DataAnalyzer.App", "Hometask.DataAnalyzer.App\Hometask.DataAnalyzer.App.csproj", "{212F1509-7E74-4D84-C183-9A83EFB4EE25}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,18 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{773D6EF8-BDAF-4936-8C4A-EC6D2687C0B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{773D6EF8-BDAF-4936-8C4A-EC6D2687C0B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{773D6EF8-BDAF-4936-8C4A-EC6D2687C0B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{773D6EF8-BDAF-4936-8C4A-EC6D2687C0B9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6D96D05E-E29D-48AE-AF32-9123A24B4926}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6D96D05E-E29D-48AE-AF32-9123A24B4926}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6D96D05E-E29D-48AE-AF32-9123A24B4926}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6D96D05E-E29D-48AE-AF32-9123A24B4926}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5A6C2D90-EC67-401F-BF59-D5CEF16F1E4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5A6C2D90-EC67-401F-BF59-D5CEF16F1E4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5A6C2D90-EC67-401F-BF59-D5CEF16F1E4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5A6C2D90-EC67-401F-BF59-D5CEF16F1E4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D9DB895-253B-F06E-98AF-28C385D69D24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D9DB895-253B-F06E-98AF-28C385D69D24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D9DB895-253B-F06E-98AF-28C385D69D24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D9DB895-253B-F06E-98AF-28C385D69D24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2C9AF7D-F421-C222-6C63-A5AD5B86BD47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2C9AF7D-F421-C222-6C63-A5AD5B86BD47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2C9AF7D-F421-C222-6C63-A5AD5B86BD47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2C9AF7D-F421-C222-6C63-A5AD5B86BD47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{212F1509-7E74-4D84-C183-9A83EFB4EE25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{212F1509-7E74-4D84-C183-9A83EFB4EE25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{212F1509-7E74-4D84-C183-9A83EFB4EE25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{212F1509-7E74-4D84-C183-9A83EFB4EE25}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
