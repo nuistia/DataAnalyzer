@@ -3,7 +3,7 @@ using Hometask.DataAnalyzer.Core.Operations;
 
 namespace Hometask.DataAnalyzer.Core.Operation.StringOperations.StringTextOperations;
 
-public class StringMaxNumIndexOperation : IOperation<string, IntNumberResult, int>
+public class StringMaxNumIndexOperation : IOperation<string, IntNumberResult>
 {
     public IntNumberResult Process(string text)
     {

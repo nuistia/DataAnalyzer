@@ -4,11 +4,11 @@ using Hometask.TextAnalyzer.Core.DataReaders;
 
 namespace Hometask.DataAnalyzer.Core.DataReaders;
 
-public class StringReader : IDataReader<string, IntNumberResult, int>
+public class StringReader : IDataReader<string, IntNumberResult>
 {
-    private readonly IOperation<string, IntNumberResult, int> _operation;
+    private readonly IOperation<string, IntNumberResult> _operation;
 
-    public StringReader(IOperation<string, IntNumberResult, int> operation)
+    public StringReader(IOperation<string, IntNumberResult> operation)
     {
         ArgumentNullException.ThrowIfNull(operation, nameof(operation));
 

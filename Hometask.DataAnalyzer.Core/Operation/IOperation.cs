@@ -2,7 +2,7 @@
 
 namespace Hometask.DataAnalyzer.Core.Operations;
 
-public interface IOperation<T, TResult, TResultType> where TResult : IResult<TResultType>
+public interface IOperation<T, TResult> where TResult : IOperationResult
 {
     TResult Process(T data);
 }
