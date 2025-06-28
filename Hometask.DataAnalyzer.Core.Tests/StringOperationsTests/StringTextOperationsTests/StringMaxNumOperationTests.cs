@@ -1,7 +1,7 @@
 ﻿using Hometask.DataAnalyzer.Core.Models.ResultModels;
-using Hometask.DataAnalyzer.Core.Operation.StringOperations;
+using Hometask.DataAnalyzer.Core.Operation.StringOperations.StringTextOperations;
 
-namespace Hometask.DataAnalyzer.Core.Tests.StringOperationsTests;
+namespace Hometask.DataAnalyzer.Core.Tests.StringOperationsTests.StringTextOperationsTests;
 
 [TestFixture]
 public class StringMaxNumOperationTests

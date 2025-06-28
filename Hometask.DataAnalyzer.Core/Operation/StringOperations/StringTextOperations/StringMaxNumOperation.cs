@@ -1,9 +1,9 @@
 ﻿using Hometask.DataAnalyzer.Core.Models.ResultModels;
 using Hometask.DataAnalyzer.Core.Operations;
 
-namespace Hometask.DataAnalyzer.Core.Operation.StringOperations;
+namespace Hometask.DataAnalyzer.Core.Operation.StringOperations.StringTextOperations;
 
-public class StringMaxNumOperation : IOperation<string, IntNumberResult, int>
+public class StringMaxNumOperation : IOperation<string, IntNumberResult>
 {
     public IntNumberResult Process(string text)
     {
