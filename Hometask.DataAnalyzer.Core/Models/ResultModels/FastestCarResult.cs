@@ -1,3 +1,3 @@
 ﻿namespace Hometask.DataAnalyzer.Core.Models.ResultModels;
 
-public record FastestCarResult(int FirstIndex, int? LastIndex = null) : IOperationResult;
+public record FastestCarResult(int FirstIndex, int LastIndex) : IOperationResult;
